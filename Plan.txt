@@ -1,0 +1,11 @@
+Step:1 make & deploy unoptimized contracts
+Step:2 Make & deploy optimized contracts
+Step:3 Compare gas fee difference between both contracts
+Step:4 Make a short report a power bi 
+- You will optimize it using some techniques from the paper & mention those techniques
+- Explain in a short report how your techniques have made a difference in gas usage
+- Explain how your performed techniques can reduce gas usage on bigger contract codes as well
+
+
+
+Basically backup the entire process of coding & our research paper
