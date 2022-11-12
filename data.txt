@@ -1,7 +1,7 @@
-Deployment cost: 1296981,1307508,1313743,1356851,
-mint 1 token cost : 66833,
-setName function calling cost: 28148,
-setSymbol function calling cost: 28114,
-transfer function calling cost:45289,
-approve function cost :44878,
-transferFrom function cost:46759, 
+Deployment cost: 1296981,1413172
+mint 1 token cost : 66833,72639
+setName function calling cost: 28148,31719
+setSymbol function calling cost: 28114,31685
+transfer function calling cost:45289,67672
+approve function cost :44878,50248,55136
+transferFrom function cost:46759, 53071,70171

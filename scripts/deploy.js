@@ -13,13 +13,22 @@ async function main() {
 
   const lockedAmount = hre.ethers.utils.parseEther("1");
 
-  const Lock = await hre.ethers.getContractFactory("Lock");
-  const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
+  const OptimizedCoin = await hre.ethers.getContractFactory("OptimizedCoin");
+  const OptimizedCoindeploy = await OptimizedCoin.deploy('OptimizedCoin','OP');
 
-  await lock.deployed();
+  await OptimizedCoindeploy.deployed();
 
   console.log(
-    `Lock with 1 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`
+    `OptimizedCoin deployed to ${OptimizedCoindeploy.address}`
+  );
+
+  const UnoptimizedCoin = await hre.ethers.getContractFactory("UnoptimizedCoin");
+  const UnoptimizedCoindeploy = await UnoptimizedCoin.deploy('UnoptimizedCoin','UP');
+
+  await UnoptimizedCoindeploy.deployed();
+
+  console.log(
+    `UnoptimizedCoin deployed to ${UnoptimizedCoindeploy.address}`
   );
 }
 

@@ -1,0 +1,8 @@
+OptimizedCoin deployed to 0x5e301785188bCF7f64D168cdB8e947989F2EF640
+https://sepolia.etherscan.io/address/0x5e301785188bcf7f64d168cdb8e947989f2ef640#code
+
+
+
+
+UnoptimizedCoin deployed to 0x5262F9B15F2AE7FF8880dD8d393b78dB7Df88AE4
+https://sepolia.etherscan.io/address/0x5262F9B15F2AE7FF8880dD8d393b78dB7Df88AE4#code
